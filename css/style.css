@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(https://images.template.net/91401/black-and-gold-background-c5hov.jpg);
+    background-size: cover;
+}
+.weightContainer {
+    height: 100%;
+    width: 30%;
+    padding: 50px;
+    background: linear-gradient(to right, rgb(21, 21, 19), rgb(85, 74, 34));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.weightContainer p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    color: gold;
+}
+.weightContainer input {
+border: 1px solid black;
+border-radius: 5px;
+padding: 5px 2px;
+margin-top: 5px;
+background: black;
+color: whitesmoke;
+border: 1px solid gold;
+}
+.conTitle {
+    font-family: sans-serif;
+    color: gold;
+}
+.selection {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.selection select {
+    background: black;
+    padding: 5px 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 30px;
+    border: 1px solid gold;
+    border-radius: 5px;
+    color: gold;
+    font-size: 15px;
+}
+span {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+button {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 0 10px;
+    background: gold;
+    border-radius: 5px;
+}
+.displayResult {
+    border: 1px solid whitesmoke;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background: linear-gradient(to left, rgb(46, 46, 46), rgb(69, 69, 69));
+    padding: 10px 0;
+    border-radius: 5px;
+}
+h5 {
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: sans-serif;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Weight Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script defer src="script/main.js"></script>
+    
+    <div class="weightContainer">
+        <div class="conTitle">
+            <h1>Weight Converter</h1>
+        </div>
+        <p>Enter amount:</p>
+    
+        <input type="number" id="weightInput" />
+    
+        <div class="selection">
+            <select id="fromUnit">
+                <option value="pounds">Pounds</option>
+                <option value="kilograms">Kilograms</option>
+                <option value="grams">Grams</option>
+                <option value="ounce">Ounce</option>
+                <option value="tonne">Tonne</option>
+            </select>
+        
+            <span>To</span>
+            
+            <select id="toUnit">
+                <option value="pounds">Pounds</option>
+                <option value="kilograms">Kilograms</option>
+                <option value="grams">Grams</option>
+                <option value="ounce">Ounce</option>
+                <option value="tonne">Tonne</option>
+            </select>
+        </div>
+    
+        <button onclick="convertWeight()">Convert</button>
+    </div>
+    <div class="displayResult">
+        <h5 id="result"></h5>
+    </div>
+</body>
+</html>
